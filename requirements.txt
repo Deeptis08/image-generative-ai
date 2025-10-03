@@ -4,7 +4,6 @@ openai==1.40.0
 requests==2.32.3
 pillow==10.1.0
 transformers==4.44.2
-torch==2.4.1  # CPU version; add --index-url https://download.pytorch.org/whl/cu121 for GPU
+torch==2.4.1  # CPU version; for GPU: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 nltk==3.8.1
 python-dotenv==1.0.1
-sqlite3  # Built-in, no install needed
